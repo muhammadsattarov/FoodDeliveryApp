@@ -13,6 +13,7 @@
 		CEE7EA792BB9D7D700E1A0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE7EA782BB9D7D700E1A0F7 /* Assets.xcassets */; };
 		CEE7EA7C2BB9D7D700E1A0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE7EA7A2BB9D7D700E1A0F7 /* LaunchScreen.storyboard */; };
 		CEE7EA862BB9DFB400E1A0F7 /* Roboto in Resources */ = {isa = PBXBuildFile; fileRef = CEE7EA852BB9DFB400E1A0F7 /* Roboto */; };
+		CEE7EAA12BBAF82F00E1A0F7 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7EAA02BBAF82F00E1A0F7 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CEE7EA7B2BB9D7D700E1A0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE7EA7D2BB9D7D700E1A0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEE7EA852BB9DFB400E1A0F7 /* Roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Roboto; sourceTree = "<group>"; };
+		CEE7EAA02BBAF82F00E1A0F7 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		CEE7EA6E2BB9D7D500E1A0F7 /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				CEE7EA9D2BBAF7FC00E1A0F7 /* NavigationLayer */,
 				CEE7EA832BB9DF9300E1A0F7 /* Resources */,
 				CEE7EA6F2BB9D7D500E1A0F7 /* AppDelegate.swift */,
 				CEE7EA712BB9D7D500E1A0F7 /* SceneDelegate.swift */,
@@ -81,6 +84,30 @@
 				CEE7EA852BB9DFB400E1A0F7 /* Roboto */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CEE7EA9D2BBAF7FC00E1A0F7 /* NavigationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CEE7EA9E2BBAF80600E1A0F7 /* Coordinator */,
+				CEE7EA9F2BBAF81900E1A0F7 /* Controllers */,
+			);
+			path = NavigationLayer;
+			sourceTree = "<group>";
+		};
+		CEE7EA9E2BBAF80600E1A0F7 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CEE7EAA02BBAF82F00E1A0F7 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		CEE7EA9F2BBAF81900E1A0F7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE7EAA12BBAF82F00E1A0F7 /* Coordinator.swift in Sources */,
 				CEE7EA742BB9D7D500E1A0F7 /* ViewController.swift in Sources */,
 				CEE7EA702BB9D7D500E1A0F7 /* AppDelegate.swift in Sources */,
 				CEE7EA722BB9D7D500E1A0F7 /* SceneDelegate.swift in Sources */,
