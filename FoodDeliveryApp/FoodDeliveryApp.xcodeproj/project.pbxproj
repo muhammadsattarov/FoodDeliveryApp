@@ -13,6 +13,15 @@
 		CEE7EA792BB9D7D700E1A0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE7EA782BB9D7D700E1A0F7 /* Assets.xcassets */; };
 		CEE7EA7C2BB9D7D700E1A0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE7EA7A2BB9D7D700E1A0F7 /* LaunchScreen.storyboard */; };
 		CEE7EA862BB9DFB400E1A0F7 /* Roboto in Resources */ = {isa = PBXBuildFile; fileRef = CEE7EA852BB9DFB400E1A0F7 /* Roboto */; };
+		CEE7EAA12BBAF82F00E1A0F7 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7EAA02BBAF82F00E1A0F7 /* Coordinator.swift */; };
+		CEE7EAA32BBB022E00E1A0F7 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7EAA22BBB022E00E1A0F7 /* AppCoordinator.swift */; };
+		CEE7EAA52BBB02AD00E1A0F7 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7EAA42BBB02AD00E1A0F7 /* OnboardingCoordinator.swift */; };
+		CEE7EAA72BBB08EB00E1A0F7 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7EAA62BBB08EB00E1A0F7 /* HomeCoordinator.swift */; };
+		CEE7EAA92BBB090A00E1A0F7 /* OrderCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7EAA82BBB090A00E1A0F7 /* OrderCoordinator.swift */; };
+		CEE7EAAB2BBB093400E1A0F7 /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7EAAA2BBB093400E1A0F7 /* ListCoordinator.swift */; };
+		CEE7EAAD2BBB097200E1A0F7 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7EAAC2BBB097200E1A0F7 /* ProfileCoordinator.swift */; };
+		CEE7EAAF2BBB099300E1A0F7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7EAAE2BBB099300E1A0F7 /* TabBarController.swift */; };
+		CEE7EAB12BBB0FB200E1A0F7 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7EAB02BBB0FB200E1A0F7 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		CEE7EA7B2BB9D7D700E1A0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEE7EA7D2BB9D7D700E1A0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEE7EA852BB9DFB400E1A0F7 /* Roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Roboto; sourceTree = "<group>"; };
+		CEE7EAA02BBAF82F00E1A0F7 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		CEE7EAA22BBB022E00E1A0F7 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		CEE7EAA42BBB02AD00E1A0F7 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		CEE7EAA62BBB08EB00E1A0F7 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		CEE7EAA82BBB090A00E1A0F7 /* OrderCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCoordinator.swift; sourceTree = "<group>"; };
+		CEE7EAAA2BBB093400E1A0F7 /* ListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinator.swift; sourceTree = "<group>"; };
+		CEE7EAAC2BBB097200E1A0F7 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		CEE7EAAE2BBB099300E1A0F7 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		CEE7EAB02BBB0FB200E1A0F7 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 		CEE7EA6E2BB9D7D500E1A0F7 /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				CEE7EA9D2BBAF7FC00E1A0F7 /* NavigationLayer */,
 				CEE7EA832BB9DF9300E1A0F7 /* Resources */,
 				CEE7EA6F2BB9D7D500E1A0F7 /* AppDelegate.swift */,
 				CEE7EA712BB9D7D500E1A0F7 /* SceneDelegate.swift */,
@@ -71,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				CEE7EA842BB9DFA100E1A0F7 /* Fonts */,
+				CEE7EAB02BBB0FB200E1A0F7 /* Extension.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -81,6 +101,37 @@
 				CEE7EA852BB9DFB400E1A0F7 /* Roboto */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CEE7EA9D2BBAF7FC00E1A0F7 /* NavigationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CEE7EA9E2BBAF80600E1A0F7 /* Coordinator */,
+				CEE7EA9F2BBAF81900E1A0F7 /* Controllers */,
+			);
+			path = NavigationLayer;
+			sourceTree = "<group>";
+		};
+		CEE7EA9E2BBAF80600E1A0F7 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				CEE7EAA02BBAF82F00E1A0F7 /* Coordinator.swift */,
+				CEE7EAA22BBB022E00E1A0F7 /* AppCoordinator.swift */,
+				CEE7EAA42BBB02AD00E1A0F7 /* OnboardingCoordinator.swift */,
+				CEE7EAA62BBB08EB00E1A0F7 /* HomeCoordinator.swift */,
+				CEE7EAA82BBB090A00E1A0F7 /* OrderCoordinator.swift */,
+				CEE7EAAA2BBB093400E1A0F7 /* ListCoordinator.swift */,
+				CEE7EAAC2BBB097200E1A0F7 /* ProfileCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		CEE7EA9F2BBAF81900E1A0F7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEE7EAAE2BBB099300E1A0F7 /* TabBarController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,8 +205,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE7EAA12BBAF82F00E1A0F7 /* Coordinator.swift in Sources */,
+				CEE7EAA92BBB090A00E1A0F7 /* OrderCoordinator.swift in Sources */,
+				CEE7EAAF2BBB099300E1A0F7 /* TabBarController.swift in Sources */,
+				CEE7EAB12BBB0FB200E1A0F7 /* Extension.swift in Sources */,
+				CEE7EAAB2BBB093400E1A0F7 /* ListCoordinator.swift in Sources */,
+				CEE7EAA52BBB02AD00E1A0F7 /* OnboardingCoordinator.swift in Sources */,
 				CEE7EA742BB9D7D500E1A0F7 /* ViewController.swift in Sources */,
+				CEE7EAA32BBB022E00E1A0F7 /* AppCoordinator.swift in Sources */,
 				CEE7EA702BB9D7D500E1A0F7 /* AppDelegate.swift in Sources */,
+				CEE7EAA72BBB08EB00E1A0F7 /* HomeCoordinator.swift in Sources */,
+				CEE7EAAD2BBB097200E1A0F7 /* ProfileCoordinator.swift in Sources */,
 				CEE7EA722BB9D7D500E1A0F7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
