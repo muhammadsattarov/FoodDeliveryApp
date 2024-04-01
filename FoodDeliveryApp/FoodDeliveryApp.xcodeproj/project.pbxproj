@@ -14,6 +14,8 @@
 		CEE7EA7C2BB9D7D700E1A0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE7EA7A2BB9D7D700E1A0F7 /* LaunchScreen.storyboard */; };
 		CEE7EA862BB9DFB400E1A0F7 /* Roboto in Resources */ = {isa = PBXBuildFile; fileRef = CEE7EA852BB9DFB400E1A0F7 /* Roboto */; };
 		CEE7EAA12BBAF82F00E1A0F7 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7EAA02BBAF82F00E1A0F7 /* Coordinator.swift */; };
+		CEE7EAA32BBB022E00E1A0F7 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7EAA22BBB022E00E1A0F7 /* AppCoordinator.swift */; };
+		CEE7EAA52BBB02AD00E1A0F7 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7EAA42BBB02AD00E1A0F7 /* OnboardingCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CEE7EA7D2BB9D7D700E1A0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEE7EA852BB9DFB400E1A0F7 /* Roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Roboto; sourceTree = "<group>"; };
 		CEE7EAA02BBAF82F00E1A0F7 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		CEE7EAA22BBB022E00E1A0F7 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		CEE7EAA42BBB02AD00E1A0F7 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				CEE7EAA02BBAF82F00E1A0F7 /* Coordinator.swift */,
+				CEE7EAA22BBB022E00E1A0F7 /* AppCoordinator.swift */,
+				CEE7EAA42BBB02AD00E1A0F7 /* OnboardingCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -182,7 +188,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE7EAA12BBAF82F00E1A0F7 /* Coordinator.swift in Sources */,
+				CEE7EAA52BBB02AD00E1A0F7 /* OnboardingCoordinator.swift in Sources */,
 				CEE7EA742BB9D7D500E1A0F7 /* ViewController.swift in Sources */,
+				CEE7EAA32BBB022E00E1A0F7 /* AppCoordinator.swift in Sources */,
 				CEE7EA702BB9D7D500E1A0F7 /* AppDelegate.swift in Sources */,
 				CEE7EA722BB9D7D500E1A0F7 /* SceneDelegate.swift in Sources */,
 			);
