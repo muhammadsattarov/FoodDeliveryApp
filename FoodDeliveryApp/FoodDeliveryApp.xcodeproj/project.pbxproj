@@ -22,6 +22,8 @@
 		CEE7EAAD2BBB097200E1A0F7 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7EAAC2BBB097200E1A0F7 /* ProfileCoordinator.swift */; };
 		CEE7EAAF2BBB099300E1A0F7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7EAAE2BBB099300E1A0F7 /* TabBarController.swift */; };
 		CEE7EAB42BBB14AD00E1A0F7 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7EAB32BBB14AD00E1A0F7 /* UIColor + Extension.swift */; };
+		CEE7EABE2BBBF8F900E1A0F7 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7EABD2BBBF8F900E1A0F7 /* OnboardingViewController.swift */; };
+		CEE7EAC02BBBF90B00E1A0F7 /* OnboardingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE7EABF2BBBF90B00E1A0F7 /* OnboardingViewPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		CEE7EAAC2BBB097200E1A0F7 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
 		CEE7EAAE2BBB099300E1A0F7 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		CEE7EAB32BBB14AD00E1A0F7 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		CEE7EABD2BBBF8F900E1A0F7 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		CEE7EABF2BBBF90B00E1A0F7 /* OnboardingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		CEE7EA6E2BB9D7D500E1A0F7 /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				CEE7EABB2BBBF8DA00E1A0F7 /* UILayer */,
 				CEE7EA9D2BBAF7FC00E1A0F7 /* NavigationLayer */,
 				CEE7EA832BB9DF9300E1A0F7 /* Resources */,
 				CEE7EA6F2BB9D7D500E1A0F7 /* AppDelegate.swift */,
@@ -140,6 +145,23 @@
 				CEE7EAB32BBB14AD00E1A0F7 /* UIColor + Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		CEE7EABB2BBBF8DA00E1A0F7 /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				CEE7EABC2BBBF8E500E1A0F7 /* Onboarding */,
+			);
+			path = UILayer;
+			sourceTree = "<group>";
+		};
+		CEE7EABC2BBBF8E500E1A0F7 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				CEE7EABD2BBBF8F900E1A0F7 /* OnboardingViewController.swift */,
+				CEE7EABF2BBBF90B00E1A0F7 /* OnboardingViewPresenter.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +235,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE7EABE2BBBF8F900E1A0F7 /* OnboardingViewController.swift in Sources */,
 				CEE7EAA12BBAF82F00E1A0F7 /* Coordinator.swift in Sources */,
+				CEE7EAC02BBBF90B00E1A0F7 /* OnboardingViewPresenter.swift in Sources */,
 				CEE7EAA92BBB090A00E1A0F7 /* OrderCoordinator.swift in Sources */,
 				CEE7EAAF2BBB099300E1A0F7 /* TabBarController.swift in Sources */,
 				CEE7EAAB2BBB093400E1A0F7 /* ListCoordinator.swift in Sources */,
